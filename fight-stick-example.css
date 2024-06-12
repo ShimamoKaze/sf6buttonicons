@@ -59,7 +59,9 @@ do so via my paypal: https://paypal.me/mrmcpowned
   -webkit-filter: invert(1);
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://gamepadviewer.com/stick-assets/disconnected.svg);
+    background-color: black;
+    height: 850px;
+    width: 1600px;
 }
 /* This hides the controller's button when disconnected so only the background image remains */
 .custom.disconnected div {
