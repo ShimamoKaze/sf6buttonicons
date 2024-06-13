@@ -43,7 +43,7 @@ above to achieve the desired position. */
   bottom: 650px;
   right: 1150px;
   background-size: contain;
-  background-image: url(medium%20kick.png) center no-repeat;
+  background-image: url(medium%20kick.png);
 }
 .custom .trigger-button.right{
   display: inline-block;
@@ -53,7 +53,7 @@ above to achieve the desired position. */
   bottom: 625px;
   right: 1300px;
   background-size: contain;
-  background-image: url(heavy%20kick.png) center no-repeat;
+  background-image: url(heavy%20kick.png);
 }
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
@@ -71,7 +71,7 @@ placement */
   bottom: 400px;
   right: 1100px;
   background-size: contain;
-  background-image: url(medium%20punch.png) center no-repeat;
+  background-image: url(medium%20punch.png);
 }
 .custom .bumper.right{
   display: inline-block;
@@ -81,7 +81,7 @@ placement */
   bottom: 475px;
   right: 1350px;
   background-size: contain;
-  background-image: url(heavy%20punch.png) center no-repeat;
+  background-image: url(heavy%20punch.png);
 }
 /* This is to size and position the containing div for the
 start and select buttons. */
@@ -124,7 +124,7 @@ start and select buttons. */
   bottom: 200px;
   right: 900px;
   background-size: contain;
-  background-image: url(grab.png) center no-repeat;
+  background-image: url(grab.png);
 }
 .custom .b{
 
@@ -137,7 +137,7 @@ start and select buttons. */
   bottom: 400px;
   right: 950px;
   background-size: contain;
-  background-image: url(light%20kick.png) center no-repeat;
+  background-image: url(light%20kick.png);
 }
 .custom .y{
   display: inline-block;
@@ -147,7 +147,7 @@ start and select buttons. */
   bottom: 600px;
   right: 1000px;
   background-size: contain;
-  background-image: url(light%20punch.png) center no-repeat;
+  background-image: url(light%20punch.png);
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies
@@ -163,7 +163,7 @@ the CSS inline. */
   bottom: 450px;
   right: 150px;
   background-size: contain;
-  background-image: url(drive%20parry.png) center no-repeat;
+  background-image: url(drive%20parry.png);
 }
 .custom .stick.right{
   display: inline-block;
@@ -173,7 +173,7 @@ the CSS inline. */
   bottom: 525px;
   right: 1500px;
   background-size: contain;
-  background-image: url(drive%20impact.png) center no-repeat;
+  background-image: url(drive%20impact.png);
 }
 /* Dpad positioning and sizing */
 .custom .dpad{
@@ -187,7 +187,7 @@ the CSS inline. */
   bottom: 600px;
   right: 300px;
   background-size: contain;
-  background-image: : url(left.png) center no-repeat;
+  background-image: : url(left.png);
 }
 .custom .face.down{
   display: inline-block;
@@ -197,7 +197,7 @@ the CSS inline. */
   bottom: 650px;
   right: 450px;
   background-size: contain;
-  background-image: url(down.png) center no-repeat;
+  background-image: url(down.png);
 }
 .custom .face.right{
   display: inline-block;
@@ -207,7 +207,7 @@ the CSS inline. */
   bottom: 550px;
   right: 600px;
   background-size: contain;
-  background-image: url(right.png) center no-repeat;
+  background-image: url(right.png);
 }
 .custom .face.up{
   display: inline-block;
@@ -217,6 +217,6 @@ the CSS inline. */
   bottom: 250px;
   right: 750px;
   background-size: contain;
-  background-image: url(up.png) center no-repeat;
+  background-image: url(up.png);
 }
 /*END Custom Controller Styling*/
