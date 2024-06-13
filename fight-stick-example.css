@@ -25,7 +25,7 @@
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 .custom .trigger{/* These are the actual triggers themselves */
 
@@ -62,7 +62,7 @@ above to achieve the desired position. */
 placement */
 .custom .bumpers{
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 .custom .bumper{
 
@@ -91,7 +91,7 @@ placement */
 start and select buttons. */
 .custom .arrows{
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
@@ -113,7 +113,7 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -160,7 +160,7 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks{
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 .custom .stick.left{
   display: inline-block;
@@ -185,7 +185,7 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 .custom .face.left{
   display: inline-block;
