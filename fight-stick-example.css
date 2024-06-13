@@ -23,8 +23,7 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-  width: 100px;
-  height: 100px;
+
 }
 .custom .trigger{/* These are the actual triggers themselves */
 
@@ -36,30 +35,31 @@
 within the div they're contained in. Since their positions is relative
 to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
-.custom .trigger.left{
+.custom .trigger-button.left{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 0px;
-  right: 400px;
+  bottom: 650px;
+  right: 1150px;
+  background-size: contain;
   background: url(medium%20kick.png) center no-repeat;
 }
 
-.custom .trigger.right{
+.custom .trigger-button.right{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 0px;
-  right: 250px;
+  bottom: 625px;
+  right: 1300px;
+  background-size: contain;
   background: url(heavy%20kick.png) center no-repeat;
 }
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-  width: 100px;
-  height: 100px;
+
 }
 .custom .bumpers{
 
@@ -69,8 +69,9 @@ placement */
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 150px;
-  right: 400px;
+  bottom: 400px;
+  right: 1100px;
+  background-size: contain;
   background: url(medium%20punch.png) center no-repeat;
 }
 .custom .bumper.right{
@@ -78,15 +79,15 @@ placement */
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 150px;
-  right: 250px;
+  bottom: 475px;
+  right: 1350px;
+  background-size: contain;
   background: url(heavy%20punch.png) center no-repeat;
 }
 /* This is to size and position the containing div for the
 start and select buttons. */
 .custom .arrows{
-  width: 100px;
-  height: 100px;
+
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -110,8 +111,7 @@ start and select buttons. */
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
-  width: 100px;
-  height: 100px;
+
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -125,8 +125,9 @@ start and select buttons. */
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: -50px;
-  right: 450px;
+  bottom: 200px;
+  right: 900px;
+  background-size: contain;
   background: url(grab.png) center no-repeat;
 }
 .custom .b{
@@ -137,8 +138,9 @@ start and select buttons. */
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 0px;
-  right: 550px;
+  bottom: 400px;
+  right: 950px;
+  background-size: contain;
   background: url(light%20kick.png) center no-repeat;
 }
 .custom .y{
@@ -146,50 +148,80 @@ start and select buttons. */
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 150px;
-  right: 550px;
+  bottom: 600px;
+  right: 1000px;
+  background-size: contain;
   background: url(light%20punch.png) center no-repeat;
+}
+/* Analog sticks follow the same principles as the triggers in terms of positioning
+Note that the rotation of the sticks in hard coded with javascript, so it applies
+the CSS inline. */
+.custom .sticks{
+
+}
+
+.custom .stick.left{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  position: aboslute;
+  bottom: 450px;
+  right: 150px;
+  background-size: contain;
+  background: url(drive%20parry.png) center no-repeat;
+}
+.custom .stick.right{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  position: aboslute;
+  bottom: 525px;
+  right: 1500px;
+  background-size: contain;
+  background: url(drive%20impact.png) center no-repeat;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
-  width: 100px;
-  height: 100px;
-}
-.custom .face.up{
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  position: aboslute;
-  bottom: 150px;
-  right: 550px;
-  background: url(light%20punch.png) center no-repeat;
-}
-.custom .face.down{
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  position: aboslute;
-  bottom: 150px;
-  right: 550px;
-  background: url(light%20punch.png) center no-repeat;
+
 }
 .custom .face.left{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 150px;
-  right: 550px;
-  background: url(light%20punch.png) center no-repeat;
+  bottom: 600px;
+  right: 300px;
+  background-size: contain;
+  background: url(left.png) center no-repeat;
+}
+.custom .face.down{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: aboslute;
+  bottom: 650px;
+  right: 450px;
+  background-size: contain;
+  background: url(down.png) center no-repeat;
 }
 .custom .face.right{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: aboslute;
-  bottom: 150px;
-  right: 550px;
-  background: url(light%20punch.png) center no-repeat;
+  bottom: 550px;
+  right: 600px;
+  background-size: contain;
+  background: url(right.png) center no-repeat;
 }
-
+.custom .face.up{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: aboslute;
+  bottom: 250px;
+  right: 750px;
+  background-size: contain;
+  background: url(up.png) center no-repeat;
+}
 /*END Custom Controller Styling*/
