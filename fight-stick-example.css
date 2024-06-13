@@ -41,7 +41,7 @@ above to achieve the desired position. */
   height: 100px;
   position: absolute;
   bottom: 650px;
-  right: 1150px;
+  left: 1150px;
   background-size: contain;
   background-image: url(medium%20kick.png);
 }
@@ -51,7 +51,7 @@ above to achieve the desired position. */
   height: 100px;
   position: absolute;
   bottom: 625px;
-  right: 1300px;
+  left: 1300px;
   background-size: contain;
   background-image: url(heavy%20kick.png);
 }
@@ -69,7 +69,7 @@ placement */
   height: 100px;
   position: absolute;
   bottom: 400px;
-  right: 1100px;
+  left: 1100px;
   background-size: contain;
   background-image: url(medium%20punch.png);
 }
@@ -79,7 +79,7 @@ placement */
   height: 100px;
   position: absolute;
   bottom: 475px;
-  right: 1350px;
+  left: 1350px;
   background-size: contain;
   background-image: url(heavy%20punch.png);
 }
@@ -95,7 +95,7 @@ start and select buttons. */
   height: 50px;
   position: absolute;
   bottom: 300px;
-  right: 400px;
+  left: 400px;
 }
 .custom .start{
   display: inline-block;
@@ -103,7 +103,7 @@ start and select buttons. */
   height: 50px;
   position: absolute;
   bottom: 300px;
-  right: 250px;
+  left: 250px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -122,7 +122,7 @@ start and select buttons. */
   height: 100px;
   position: absolute;
   bottom: 200px;
-  right: 900px;
+  left: 900px;
   background-size: contain;
   background-image: url(grab.png);
 }
@@ -135,7 +135,7 @@ start and select buttons. */
   height: 100px;
   position: absolute;
   bottom: 400px;
-  right: 950px;
+  left: 950px;
   background-size: contain;
   background-image: url(light%20kick.png);
 }
@@ -145,7 +145,7 @@ start and select buttons. */
   height: 100px;
   position: absolute;
   bottom: 600px;
-  right: 1000px;
+  left: 1000px;
   background-size: contain;
   background-image: url(light%20punch.png);
 }
@@ -161,7 +161,7 @@ the CSS inline. */
   height: 150px;
   position: absolute;
   bottom: 450px;
-  right: 150px;
+  left: 150px;
   background-size: contain;
   background-image: url(drive%20parry.png);
 }
@@ -171,7 +171,7 @@ the CSS inline. */
   height: 150px;
   position: absolute;
   bottom: 525px;
-  right: 1500px;
+  left: 1500px;
   background-size: contain;
   background-image: url(drive%20impact.png);
 }
@@ -185,9 +185,9 @@ the CSS inline. */
   height: 100px;
   position: absolute;
   bottom: 600px;
-  right: 300px;
+  left: 300px;
   background-size: contain;
-  background-image: : url(left.png);
+  background-image: url(left.png);
 }
 .custom .face.down{
   display: inline-block;
@@ -195,7 +195,7 @@ the CSS inline. */
   height: 100px;
   position: absolute;
   bottom: 650px;
-  right: 450px;
+  left: 450px;
   background-size: contain;
   background-image: url(down.png);
 }
@@ -205,7 +205,7 @@ the CSS inline. */
   height: 100px;
   position: absolute;
   bottom: 550px;
-  right: 600px;
+  left: 600px;
   background-size: contain;
   background-image: url(right.png);
 }
@@ -215,7 +215,7 @@ the CSS inline. */
   height: 100px;
   position: absolute;
   bottom: 250px;
-  right: 750px;
+  left: 750px;
   background-size: contain;
   background-image: url(up.png);
 }
