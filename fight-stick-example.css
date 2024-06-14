@@ -33,8 +33,8 @@ the CSS inline. */
   width: 150px;
   height: 150px;
   position: absolute;
-  bottom: 225px;
-  right: 500px;
+  bottom: 125px;
+  right: 450px;
   background-size: contain;
   background-image: url(drive%20parry.png);
 }
@@ -47,8 +47,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 275px;
-  right: 400px;
+  bottom: 175px;
+  right: 350px;
   background-size: contain;
   background-image: url(left.png);
 }
@@ -57,8 +57,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 300px;
-  right: 300px;
+  bottom: 200px;
+  right: 250px;
   background-size: contain;
   background-image: url(down.png);
 }
@@ -67,8 +67,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 275px;
-  right: 200px;
+  bottom: 175px;
+  right: 150px;
   background-size: contain;
   background-image: url(right.png);
 }
@@ -77,8 +77,8 @@ the CSS inline. */
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 200px;
-  right: 100px;
+  top: 100px;
+  right: 50px;
   background-size: contain;
   background-image: url(up.png);
 }
@@ -98,8 +98,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 150px;
-  left: 100px;
+  top: 50px;
+  left: 50px;
   background-size: contain;
   background-image: url(grab.png);
 }
@@ -111,8 +111,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 250px;
-  left: 150px;
+  bottom: 150px;
+  left: 100px;
   background-size: contain;
   background-image: url(light%20kick.png);
 }
@@ -121,8 +121,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 350px;
-  left: 175px;
+  bottom: 250px;
+  left: 125px;
   background-size: contain;
   background-image: url(light%20punch.png);
 }
@@ -144,8 +144,8 @@ above to achieve the desired position. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 275px;
-  left: 250px;
+  bottom: 175px;
+  left: 200px;
   background-size: contain;
   background-image: url(medium%20punch.png);
 }
@@ -154,8 +154,8 @@ above to achieve the desired position. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 375px;
-  left: 275px;
+  bottom: 275px;
+  left: 225px;
   background-size: contain;
   background-image: url(heavy%20kick.png);
 }
@@ -172,8 +172,8 @@ placement */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 275px;
-  left: 350px;
+  bottom: 175px;
+  left: 300px;
   background-size: contain;
   background-image: url(medium%20kick.png);
 }
@@ -182,8 +182,8 @@ placement */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 375px;
-  left: 375px;
+  bottom: 275px;
+  left: 325px;
   background-size: contain;
   background-image: url(heavy%20punch.png);
 }
@@ -192,8 +192,8 @@ placement */
   width: 150px;
   height: 150px;
   position: absolute;
-  bottom: 300px;
-  left: 475px;
+  bottom: 200px;
+  left: 425px;
   background-size: contain;
   background-image: url(drive%20impact.png);
 }
@@ -208,15 +208,15 @@ start and select buttons. */
   width: 50px;
   height: 50px;
   position: absolute;
-  bottom: 500px;
-  left: 100px;
+  bottom: 300px;
+  left: 50px;
 }
 .custom .start{
   display: inline-block;
   width: 50px;
   height: 50px;
   position: absolute;
-  bottom: 500px;
-  right: 100px;
+  bottom: 300px;
+  right: 50px;
 }
 /*END Custom Controller Styling*/
