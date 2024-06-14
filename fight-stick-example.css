@@ -77,7 +77,7 @@ the CSS inline. */
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 75px;
+  top: 50px;
   right: 25px;
   background-size: contain;
   background-image: url(up.png);
@@ -98,7 +98,7 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 150px;
+  top: 125px;
   left: 25px;
   background-size: contain;
   background-image: url(grab.png);
