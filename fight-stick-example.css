@@ -144,8 +144,8 @@ above to achieve the desired position. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 200px;
-  left: 200px;
+  bottom: 100px;
+  left: 175px;
   background-size: contain;
   background-image: url(medium%20kick.png);
 }
@@ -154,8 +154,8 @@ above to achieve the desired position. */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 200px;
-  left: 300px;
+  bottom: 100px;
+  left: 275px;
   background-size: contain;
   background-image: url(heavy%20kick.png);
 }
@@ -172,8 +172,8 @@ placement */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 100px;
-  left: 275px;
+  bottom: 200px;
+  left: 200px;
   background-size: contain;
   background-image: url(medium%20punch.png);
 }
@@ -182,8 +182,8 @@ placement */
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 100px;
-  left: 175px;
+  bottom: 200px;
+  left: 300px;
   background-size: contain;
   background-image: url(heavy%20punch.png);
 }
