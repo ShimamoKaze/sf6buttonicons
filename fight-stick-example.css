@@ -33,20 +33,10 @@ the CSS inline. */
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 55%;
-  left: 5%;
+  top: 425px;
+  right: 600px;
   background-size: contain;
   background-image: url(drive%20parry.png);
-}
-.custom .stick.right{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 60%;
-  left: 90%;
-  background-size: contain;
-  background-image: url(drive%20impact.png);
 }
 /* Dpad positioning and sizing */
 .custom .dpad{
@@ -57,8 +47,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 65%;
-  left: 15%;
+  top: 475px;
+  right: 500px;
   background-size: contain;
   background-image: url(left.png);
 }
@@ -67,8 +57,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 75%;
-  left: 25%;
+  top: 500px;
+  right: 400px;
   background-size: contain;
   background-image: url(down.png);
 }
@@ -77,8 +67,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 65%;
-  left: 35%;
+  top: 475px;
+  right: 300px;
   background-size: contain;
   background-image: url(right.png);
 }
@@ -87,8 +77,8 @@ the CSS inline. */
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 25%;
-  left: 45%;
+  top: 200px;
+  right: 200px;
   background-size: contain;
   background-image: url(up.png);
 }
@@ -108,8 +98,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 25%;
-  left: 55%;
+  top: 150px;
+  left: 200px;
   background-size: contain;
   background-image: url(grab.png);
 }
@@ -121,8 +111,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50%;
-  left: 60%;
+  top: 450px;
+  left: 250px;
   background-size: contain;
   background-image: url(light%20kick.png);
 }
@@ -131,8 +121,8 @@ the CSS inline. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 60%;
-  left: 65%;
+  top: 550px;
+  left: 275px;
   background-size: contain;
   background-image: url(light%20punch.png);
 }
@@ -154,20 +144,20 @@ above to achieve the desired position. */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 65%;
-  left: 75%;
+  top: 475px;
+  left: 350px;
   background-size: contain;
   background-image: url(medium%20punch.png);
 }
-.custom .trigger-button.right{
+.custom .bumper.right{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 65%;
-  left: 85%;
+  top: 575px;
+  left: 375px;
   background-size: contain;
-  background-image: url(heavy%20punch.png);
+  background-image: url(heavy%20kick.png);
 }
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
@@ -182,20 +172,30 @@ placement */
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 55%;
-  left: 70%;
+  top: 475px;
+  left: 450px;
   background-size: contain;
   background-image: url(medium%20kick.png);
 }
-.custom .bumper.right{
+.custom .trigger-button.right{
   display: inline-block;
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 55%;
-  left: 80%;
+  top: 575px;
+  left: 475px;
   background-size: contain;
-  background-image: url(heavy%20kick.png);
+  background-image: url(heavy%20punch.png);
+}
+.custom .stick.right{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 500px;
+  left: 575px;
+  background-size: contain;
+  background-image: url(drive%20impact.png);
 }
 /* This is to size and position the containing div for the
 start and select buttons. */
